@@ -1,0 +1,641 @@
+.mediaViewInfo {
+	--web-view-name: signup;
+	--web-view-id: signup;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: signup;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#signup {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: signup;
+	--web-view-id: signup;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_1430 {
+	position: absolute;
+	width: 429px;
+	height: 701px;
+	left: 1300px;
+	top: 258px;
+	overflow: visible;
+}
+#Social_Button {
+	position: absolute;
+	width: 426px;
+	height: 63px;
+	left: 2px;
+	top: 638px;
+	overflow: visible;
+}
+#Button_Background {
+	position: absolute;
+	width: 427px;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Button_Background_background {
+	fill: rgba(0,0,0,0);
+}
+.Button_Background_background {
+	position: absolute;
+	overflow: visible;
+	width: 427px;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+}
+#Button_Shape {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(196,196,196,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_Shape {
+	overflow: visible;
+	position: absolute;
+	width: 427.563px;
+	height: 63.615px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_Sign_in_with_Apple {
+	left: 137px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 199px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(105,105,105,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#Group_1429 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 85px;
+	top: 16px;
+	overflow: visible;
+}
+#Rectangle_1478 {
+	fill: transparent;
+}
+.Rectangle_1478 {
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+}
+#logo_googleg_48dp {
+	position: absolute;
+	width: 23.481px;
+	height: 23.481px;
+	left: 3.704px;
+	top: 3.567px;
+	overflow: visible;
+}
+#Shape {
+	fill: rgba(66,133,244,1);
+}
+.Shape {
+	overflow: visible;
+	position: absolute;
+	width: 11.271px;
+	height: 11.031px;
+	left: 11.74px;
+	top: 9.606px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_cun {
+	fill: rgba(52,168,83,1);
+}
+.Shape_cun {
+	overflow: visible;
+	position: absolute;
+	width: 18.261px;
+	height: 9.51px;
+	left: 1.249px;
+	top: 13.971px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_cuo {
+	fill: rgba(251,188,5,1);
+}
+.Shape_cuo {
+	overflow: visible;
+	position: absolute;
+	width: 5.171px;
+	height: 10.545px;
+	left: 0px;
+	top: 6.468px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_cup {
+	fill: rgba(234,67,53,1);
+}
+.Shape_cup {
+	overflow: visible;
+	position: absolute;
+	width: 18.347px;
+	height: 9.51px;
+	left: 1.249px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_cuq {
+	fill: rgba(0,0,0,0);
+}
+.Shape_cuq {
+	overflow: visible;
+	position: absolute;
+	width: 23.481px;
+	height: 23.481px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Social_Button_cur {
+	position: absolute;
+	width: 427px;
+	height: 63px;
+	left: 2px;
+	top: 549px;
+	overflow: visible;
+}
+#Button_Background_cus {
+	position: absolute;
+	width: 427px;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Button_Background_background_cut {
+	fill: rgba(0,0,0,0);
+}
+.Button_Background_background_cut {
+	position: absolute;
+	overflow: visible;
+	width: 427px;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+}
+#Button_Shape_cuu {
+	fill: rgba(58,89,152,1);
+}
+.Button_Shape_cuu {
+	position: absolute;
+	overflow: visible;
+	width: 427px;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+}
+#_Sign_in_with_Apple_cuv {
+	left: 124px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 223px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#Group_1428 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 72px;
+	top: 16px;
+	overflow: visible;
+}
+#Rectangle_1478_cux {
+	fill: transparent;
+}
+.Rectangle_1478_cux {
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+}
+#facebook-square {
+	fill: rgba(255,255,255,1);
+}
+.facebook-square {
+	overflow: visible;
+	position: absolute;
+	width: 23.942px;
+	height: 23.942px;
+	left: 3.611px;
+	top: 3.903px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Form_Divider {
+	position: absolute;
+	width: 426.563px;
+	height: 30.003px;
+	left: 0px;
+	top: 478.093px;
+	overflow: visible;
+}
+#Line_192 {
+	fill: transparent;
+	stroke: rgba(196,196,196,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_192 {
+	overflow: visible;
+	position: absolute;
+	width: 426.563px;
+	height: 1px;
+	left: 0px;
+	top: 15.001px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_1423 {
+	position: absolute;
+	width: 44px;
+	height: 30px;
+	left: 189.348px;
+	top: -0.093px;
+	overflow: visible;
+}
+#Path_1077 {
+	fill: rgba(255,255,255,1);
+}
+.Path_1077 {
+	overflow: visible;
+	position: absolute;
+	width: 44px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Or {
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+#Underline_Input {
+	position: absolute;
+	width: 427px;
+	height: 72px;
+	left: 1px;
+	top: 268px;
+	overflow: visible;
+}
+#Rectangle_1607 {
+	fill: transparent;
+}
+.Rectangle_1607 {
+	position: absolute;
+	overflow: visible;
+	width: 427px;
+	height: 72px;
+	left: 0px;
+	top: 0px;
+}
+#Line_184 {
+	fill: transparent;
+	stroke: rgba(196,196,196,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_184 {
+	overflow: visible;
+	position: absolute;
+	width: 427px;
+	height: 1px;
+	left: 0px;
+	top: 72px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Password {
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Underline_Input_cu {
+	position: absolute;
+	width: 427px;
+	height: 72px;
+	left: 1px;
+	top: 170px;
+	overflow: visible;
+}
+#Rectangle_1607_cu {
+	fill: transparent;
+}
+.Rectangle_1607_cu {
+	position: absolute;
+	overflow: visible;
+	width: 427px;
+	height: 72px;
+	left: 0px;
+	top: 0px;
+}
+#Line_184_cva {
+	fill: transparent;
+	stroke: rgba(196,196,196,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_184_cva {
+	overflow: visible;
+	position: absolute;
+	width: 427px;
+	height: 1px;
+	left: 0px;
+	top: 72px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Email {
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	line-height: 23px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Underline_Input_cvc {
+	position: absolute;
+	width: 427px;
+	height: 72px;
+	left: 1px;
+	top: 72px;
+	overflow: visible;
+}
+#Rectangle_1607_cvd {
+	fill: transparent;
+}
+.Rectangle_1607_cvd {
+	position: absolute;
+	overflow: visible;
+	width: 427px;
+	height: 72px;
+	left: 0px;
+	top: 0px;
+}
+#Line_184_cve {
+	fill: transparent;
+	stroke: rgba(196,196,196,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_184_cve {
+	overflow: visible;
+	position: absolute;
+	width: 427px;
+	height: 1px;
+	left: 0px;
+	top: 72px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Full_Name {
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	line-height: 23px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Already_have_an_account__Log_I {
+	left: 104px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 223px;
+	white-space: nowrap;
+	transition: all 0.3s snap;
+	--web-animation: fadein 0.3s snap;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+	line-height: 26px;
+	margin-top: -4.5px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Default_Button {
+	position: absolute;
+	width: 427px;
+	height: 62px;
+	left: 1px;
+	top: 380px;
+	overflow: visible;
+}
+#Rectangle_1469_cvj {
+	fill: url(#Rectangle_1469_cvj);
+}
+.Rectangle_1469_cvj {
+	position: absolute;
+	overflow: visible;
+	width: 427px;
+	height: 62px;
+	left: 0px;
+	top: 0px;
+	transition: all 0.3s snap;
+	--web-animation: fadein 0.3s snap;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+}
+#Join_us {
+	left: 179px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#Group_15_cvl {
+	position: absolute;
+	width: 266px;
+	height: 266px;
+	left: 1377px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Union_1_cvm {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(94,94,94,0.639);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Union_1_cvm {
+	overflow: visible;
+	position: absolute;
+	width: 116.025px;
+	height: 178.8px;
+	transform: translate(-284px, 65px) matrix(1,0,0,1,358.7943,-21.1303) rotate(82deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Produtz_Hunt_cvn {
+	position: absolute;
+	width: 266px;
+	height: 266px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1608 {
+	position: absolute;
+	width: 1175px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Or_continue_without_an_account {
+	left: 1403px;
+	top: 997px;
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	line-height: 21px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
